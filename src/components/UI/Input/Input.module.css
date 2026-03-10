@@ -1,0 +1,18 @@
+.input {
+  padding: 12px 16px;
+  font-size: 16px;
+  border: 2px solid white;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  background-color: #ffffff;
+}
+
+.input:focus {
+  border-color: #2ecc71; /* Яркий зелёный при фокусе */
+  box-shadow: 0 0 8px rgba(46, 204, 113, 0.3);
+}
+
+.input::placeholder {
+    color: #7f8c8d;
+}

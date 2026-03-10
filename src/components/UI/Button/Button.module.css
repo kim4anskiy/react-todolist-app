@@ -1,0 +1,39 @@
+.button {
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+.button.add:hover {
+  background-color: #219653;
+  color: white;
+}
+
+.button.delete:hover {
+  background-color: #ee0909;
+  color: rgb(255, 255, 255);
+}
+
+.button.done:hover {
+  background-color: #219653;
+  color: rgb(255, 255, 255);
+}
+
+.button.clear:hover {
+  background-color: #ee0909;
+  color: rgb(255, 255, 255);
+}
+
+.button.да:hover{
+  background-color: #2f32c4;
+  color: rgb(255, 255, 255);
+}
+
+.button.нет:hover{
+  background-color: #ee0909;
+  color: rgb(255, 255, 255);
+}
